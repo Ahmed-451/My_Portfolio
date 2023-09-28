@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+
+</head>
+<style>
+    /* reset css */
+
+    body{
+        margin: 0px;
+        padding: 0px;
+        background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("img/Glax2.jpg")fixed no-repeat bottom;
+        
+        background-size: 150px,1500px;
+        /* background-size:cover; */
+        color: white;
+        ;
+        /* font-family: 'Playfair Display', serif; */
+        font-family: 'Roboto', sans-serif;
+        
+    }
+
+    .left
+    {
+        
+        position: absolute;
+        left: 40px;
+        top: 22px;
+        
+    }
+    .left img
+    {
+        width: 170px;
+    }
+    .mid
+    {
+        border: 4px;
+        display: block;
+        width: 50%;
+        margin: 22px auto;
+        
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+    }
+    .right
+    {
+        
+        position: absolute;
+        right: 34px;
+        top: 22px;
+    }
+    .right img
+    {
+        width: 30px;
+        padding: 4px;
+    }
+    .navbar
+    {
+        display: inline-block;
+    }
+    .navbar li
+    {
+        display: inline-block;
+        font-size: 28px;
+    }
+    .navbar li a 
+    {
+        color: white; 
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+    .navbar li a:hover,.navbar a.active
+    {
+        text-decoration: underline;
+        color:rgb(35 155 184);
+    }
+    .container
+    {
+        border: 2px solid black;
+        margin: 10px 10px;
+        padding: 10px 10px;
+        width: 60%;
+        border-radius: 20px;
+        position: absolute;
+        left: 260px;
+        top: 250px;
+        text-align: center;
+        font-size: 35px;
+        background-color: rgb(209, 232, 251);
+        color: rgb(0, 0, 0);
+        /* font-family: 'Roboto Slab', serif; */
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+        opacity: 0.5;
+        
+    }
+    .container h1
+    {
+        font-size: 30px;
+        
+        
+    }
+    .Education h1
+    {
+        font-size: 50px;
+        font-family: 'Kanit', sans-serif;
+        text-align: center;
+        position: relative;
+        left: 80px;
+        color:  rgb(35 155 184);
+        text-decoration: underline;
+           
+    }
+    .Education
+    {
+        
+        position: absolute;
+        left: 320px;
+        top: 880px;
+    }
+    
+    .Contacts
+    {
+        position: absolute;
+        top: 1500px;
+        
+        border: 2px solid rgb(110, 110, 110);
+        
+        background-color: rgb(190, 220, 245);
+        color: rgb(0, 0, 0);
+        padding: 5px 5px;
+        width: 100%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+    }
+
+    .Contacts h2
+    {
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    .Contacts p
+    {
+        position: relative;
+        left: 620px;
+        
+    }
+
+    
+
+</style>
+<body>
+
+    <header class="header">
+        <div class="left">
+            <!-- left diviosion -->
+            <img src="img/pfImg.PNG" alt="">
+            
+
+        
+        </div>
+        <div class="mid">
+            <!-- Middle division -->
+            <ul class="navbar">
+                <li><a href="#" class="active">About</a></li>
+                <li><a href="#Edu">Education</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#Con">Contact</a></li>
+            </ul>
+        
+        </div>
+        <div class="right">
+            <!-- Right division -->
+
+        <a href="mailto:ahmed451ali@gmail.com" target="_blank">   
+        <img src="img/gmail.png" alt="gmail"></a>
+        <a href="https://www.linkedin.com/in/ahmed-ali-458a32193/" target="_blank"> 
+        <img src="img/linkedin.png" alt="Linkedin"></a>
+        <a href="https://github.com/Ahmed-451" target="_blank">
+        <img src="img/image.jpg" alt="github"></a>
+        <a href="https://www.instagram.com/_ahmed_451_/?hl=en" target="_blank">
+        <img src="img/instagram.png" alt="instagram"></a>
+        
+        </div>
+    </header>
+
+    <div id="particles-js">
+        
+    </div>
+
+    <div class="container">
+        <h1>Who am I ?</h1>
+        <p>Hello! I'm Ahmed Ali, a second-year Computer Science student with a passion for problem-solving through code. My journey in the world of technology began a couple of years ago, and I've been on a continuous quest to learn, grow, and create ever since.</p>
+    </div>
+
+    <div id="Edu" class="Education">
+
+        <h1>Education</h1><br>
+
+        <h2>B.TECH IN COMPUTER SCIENCE AND ENGINEERING, </h2>
+        <p>P.E.S. College of Engineering Aurangabad,(2023-Expected 2026).</p>
+        <br>
+        <h2>DIPLOMA IN COMPUTER ENGINEERING, </h2>
+        <p>P.E.S. Polytechnic, Aurangabad (2021-2023).</p>
+        <br>
+        <h2>SENIOR SECONDARY, </h2>
+        <p>Pearls Academy, Aurangabad (2020).</p>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    </div>
+    
+    <footer class="footer">
+        <div id="Con" class="Contacts">
+        <h2>Contact Info</h2><p><img src="img/call+24px-131985189342382922.png" alt="call"> +91-7507374446 <br> <br>
+            <img src="img/icons8-email-25.png"> ahmed451ali@gmail.com<br><br><br><br>
+        </p>
+        </div>
+           
+
+    </footer>
+
+    <script src="particles.js"></script>  
+    <script src="app.js"></script>
+
+    
+    
+</body>
+</html>
