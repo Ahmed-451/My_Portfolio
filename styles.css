@@ -1,0 +1,67 @@
+/* styles.css */
+body {
+    font-family: Garamond, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    background-image: url('banner_BG.jpg');
+    font-size: 2rem;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+.section {
+    padding: 40px 0;
+    font-size: 2rem;
+    
+    text-align: center;
+}
+
+.project {
+    color: rgb(57, 57, 194);
+    font-size: 30px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
